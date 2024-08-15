@@ -15,7 +15,7 @@ function App() {
     return (
         <div className="App">
             <Helmet>
-                <title>Pau Castellà</title>
+                <title>Pau Castellà - Portfolio</title>
                 <link rel="icon" href="/images/favicon-16x16.png" />
             </Helmet>
             <div className="sidebar">

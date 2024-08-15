@@ -5,13 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="256a41fe-a1eb-4200-9439-8edf02d5fd36" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/portfolio/public/images/favicon-16x16.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolio/public/images/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolio/public/images/sticky.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/portfolio/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/src/App.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
