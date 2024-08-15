@@ -5,15 +5,19 @@ import NavBar from './components/NavBar';
 import Hero from './components/Hero';
 import ProjectList from './components/ProjectList';
 import AboutMe from "./components/AboutMe";
-import smoothscroll from 'smoothscroll-polyfill';
 
-smoothscroll.polyfill();
+import { Helmet } from 'react-helmet';
+
 
 
 
 function App() {
     return (
         <div className="App">
+            <Helmet>
+                <title>Pau Castellà</title>
+                <link rel="icon" href="/images/favicon-16x16.png" />
+            </Helmet>
             <div className="sidebar">
                 <Hero />
                 <NavBar />
