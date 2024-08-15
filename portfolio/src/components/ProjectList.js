@@ -53,7 +53,7 @@ const projects = [
         categories: ['Software', 'Web', 'University'],
         languages: ['Java', 'SpringBoot', 'Git', 'SQL', 'MySQL'],
         image: '/images/Spring.png',
-        link: 'https://notkatsuu.itch.io/sneaky'
+        link: 'https://github.com/notkatsuu/AutoCarRent'
     }
 
     // Add more projects here

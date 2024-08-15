@@ -102,3 +102,17 @@ select:focus {
     background-color: #1b2436;
 }
 
+
+@media screen and (max-width: 1184px) {
+
+
+    #projects h2 {
+        font-size: 1.4rem;
+        color: #d1e3f1;
+        margin-bottom: 30px;
+        margin-top: 0;
+        padding-left: 40px;
+        text-shadow: 0 5px 15px rgba(0, 0, 0, 0.6);
+    }
+}
+

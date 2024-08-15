@@ -21,8 +21,8 @@
 }
 
 .project-card:hover {
-    transform: scale(1.05);
-    background-color: rgba(255, 255, 255, 0.06);
+    transform: scale(1.01);
+    background-color: rgba(255, 255, 255, 0.03);
 }
 
 .project-image {
@@ -81,6 +81,8 @@ h3 {
     border-radius: 20px;
     margin-top: 10px;
 }
+
+
 
 
 

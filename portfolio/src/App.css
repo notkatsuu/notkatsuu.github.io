@@ -4,7 +4,6 @@
 }
 
 
-
 body {
     margin: 0;
     padding: 0;
@@ -38,30 +37,68 @@ body {
     pointer-events: none;
     transform: translate(-50%, -50%);
     mix-blend-mode: overlay;
+    z-index: 101;
+}
+
+.sidebar-container {
+    position: sticky;
+    width: 80%; /* Adjusted width for the sidebar */
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    overflow-y: hidden;
+
+}
+
+@keyframes slide-in {
+    0% {
+        left: -500px; /* Move the sidebar to the left edge of its parent container */
+    }
+    100% {
+        left: 0; /* Move the sidebar to its original position */
+    }
 }
 
 .sidebar {
-    position: sticky;
+    position: absolute;
     top: 0;
+    left: 0;
     display: flex;
     flex-direction: column;
-    width: 80%; /* Adjusted width for the sidebar */
-    height: 100vh;
+    height: 100%;
     margin-left: 50px;
+    max-height: 100vh;
+    width: 500px;
     padding-top: 100px;
-    overflow-y: auto; /* Make the sidebar itself scrollable */
+    overflow: hidden; /* Add this line */
+    animation: slide-in 1s forwards;
 }
 
 .content {
+    position: relative; /* Make sure the .content is relative so it can be moved */
+    animation: slide-up 1s forwards; /* Apply the animation */
     overflow-y: auto;
     width: 100%;
     height: 100vh;
-
     padding-right: 100px;
+    padding-top: 100px;
 }
 
-@media screen and (max-width: 1000px) {
+@keyframes slide-up {
+    0% {
+        bottom: -500px; /* Move the .content down */
+    }
+    100% {
+        bottom: 0; /* Move the .content to its original position */
+    }
+}
+
+@media screen and (max-width: 1184px) {
     .sidebar {
+        display: none;
+    }
+
+    .sidebar-container {
         display: none;
     }
 
@@ -69,6 +106,7 @@ body {
         font-size: 0.5em;
         padding: 5px;
     }
+
     .filter-bubble {
         background-color: #ff4c60;
         color: #ffffff;
@@ -77,9 +115,20 @@ body {
         cursor: pointer;
     }
 
+
+    .sticky-title {
+        position: sticky;
+        top: 0;
+        z-index: 100; /* Ensure the title is above other content */
+        background-color: #060e26; /* Same as body background color */
+        padding: 10px;
+        width: 100%;
+    }
+
     .content {
-        padding-left: 60px;
-        padding-right: 60px;
+        padding-left: 120px;
+        padding-right: 120px;
+        padding-top: 0;
     }
 
     .project-list {
