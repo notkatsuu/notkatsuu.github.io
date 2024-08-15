@@ -1,0 +1,86 @@
+.project-card {
+    display: flex;
+    flex-direction: row;
+    border-radius: 8px;
+    padding-bottom: 20px;
+
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+
+.project-info {
+    flex: 2;
+    padding-left : 20px;
+    padding-right: 20px;
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; /* Align the content to the top of the card */
+}
+
+.project-card:hover {
+    transform: scale(1.05);
+    background-color: rgba(255, 255, 255, 0.06);
+}
+
+.project-image {
+    max-width: 200px;  /* Adjust this value to change the maximum width of the image */
+    max-height: 200px;  /* Adjust this value to change the maximum height of the image */
+    background: linear-gradient(45deg, #051449, #1e3a61); /* Add a gradient background */
+    object-fit: contain;
+    border: 2px solid rgba(255, 255, 255, 0.28); /* Add a border around the image */
+    box-sizing: border-box; /* Make sure the border is included in the width and height */
+    border-radius: 6px; /* Add this line to make the image a bit rounded */
+}
+
+h3 {
+    font-size: 1.2em;
+    margin-bottom: 0; /* Adjust this value to reduce the space below the title */
+}
+
+
+
+.project-image-languages {
+    max-width: 200px;  /* Adjust this value to change the maximum width of the image */
+
+    display: flex;
+
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.project-languages {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    gap: 10px; /* Add some space between the bubbles */
+}
+.language-bubble {
+    background-color: #000f89;
+    color: #ffffff;
+    padding: 5px 10px;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+
+.project-categories {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    gap: 10px; /* Add some space between the bubbles */
+}
+
+.category-bubble {
+    background-color: #204e61;
+    color: #ffffff;
+    padding: 5px 10px;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+
+
+

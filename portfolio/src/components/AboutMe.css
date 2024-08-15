@@ -1,0 +1,28 @@
+/* src/components/AboutMe.css */
+#about {
+    padding: 20px;
+    color: #d1e3f1;
+}
+
+#about h2 {
+    font-size: 2rem;
+    color: #d1e3f1;
+    margin-bottom: 20px;
+    text-shadow: 0 5px 15px rgba(0, 0, 0, 0.6);
+}
+
+#about p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: #adb4bf;
+    text-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ff4c60;
+}
