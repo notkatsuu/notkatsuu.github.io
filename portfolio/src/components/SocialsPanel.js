@@ -2,7 +2,7 @@
 import React from 'react';
 import './SocialsPanel.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faGithub, faTwitter, faLinkedin, faItchIo, faC} from '@fortawesome/free-brands-svg-icons';
+import { faGithub, faTwitter, faLinkedin, faItchIo, faDiscord} from '@fortawesome/free-brands-svg-icons';
 
 function SocialsPanel() {
     return (
@@ -19,6 +19,10 @@ function SocialsPanel() {
             <a href="https://notkatsuu.itch.io/" target="_blank" rel="noopener noreferrer">
                 <FontAwesomeIcon icon={faItchIo} />
             </a>
+            <a href="https://discord.com/users/285409843349553152" target="_blank" rel="noopener noreferrer">
+                <FontAwesomeIcon icon={faDiscord} />
+            </a>
+
         </div>
     );
 }
