@@ -24,8 +24,17 @@ const projects = [
         link: 'https://github.com/notkatsuu/kMazer'
     },
     {
+        name: 'Exclusiva!',
+        about: 'This is a Unity project prototype candidate for TV3 3CAT LUDI awards 2023. \n \n With the theme of "News", the prototype is a point and click pixel art arcade game where you have to find the objects targeted by the news and click on them to capture them. \n\n You have stats, like the camera capacity, the cadence, the FoV, and more. \n\n It did not win, but it was fun developing it!',
+        categories: ['Game'],
+        languages: ['C#', 'Unity'],
+        image: '/images/ludi.png',
+        link: 'https://github.com/notkatsuu/Exclusiva-Ludi-TV3'
+    },
+
+    {
         name: 'Bombs Away',
-        about: 'This game was Developed when i was a 2nd year, in a Weekend Gamejam, called "La Gameja" in the Navideja tre(2+1) Edition. \n\n As it was developed in a Weekend, and it was a very good experience to learn how to group in teams. \n\n The theme of that Edition was: No risk, no reward! \n So it is a Party Game where there is a bomb and an invisible timer, the one that has the bomb when it explodes loses. Only leaving the winner alive. \n We ended up getting the 3rd place!',
+        about: 'This game was Developed when i was a 2nd year, in a Weekend Gamejam, called "La Gameja" in the Navideja tres(2+1) Edition. \n\n It was developed in a Weekend, and it was a very good experience to learn how to group in teams. \n\n The theme of that Edition was: No risk, no reward! \n It is a Party Game where there is a bomb and an invisible timer, the one that has the bomb when it explodes loses. Only leaving the winner alive. \n We ended up getting the 3rd place!',
         categories: ['Game', 'University'],
         languages: ['C#', 'Unity', 'Git'],
         image: '/images/BombsAway.png',

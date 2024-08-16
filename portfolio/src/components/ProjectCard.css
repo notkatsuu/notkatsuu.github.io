@@ -22,7 +22,7 @@
 
 .project-card:hover {
     transform: scale(1.01);
-    background-color: rgba(255, 255, 255, 0.03);
+    background: linear-gradient(30deg, rgba(230, 237, 255, 0), rgba(178, 214, 255, 0.1)); /* Add a gradient background */
 }
 
 .project-image {

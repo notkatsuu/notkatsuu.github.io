@@ -18,7 +18,10 @@ function Journey() {
                 [41.586, 2.488], // Northeast coordinates
             ],
             maxBoundsViscosity: 1.0, // Ensures the user can't pan outside the bounds
+            scrollWheelZoom: false
         });
+
+
 
         L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
             attribution: '&copy; OpenStreetMap contributors',
@@ -37,9 +40,9 @@ function Journey() {
             <h2 className="sticky-title">My Journey</h2>
             <div className="section-container">
                 <div className="section-content">
+                    <h3>Tecnocampus - UPF | Barcelona</h3>
                     <div className="timeline">
                         <div className="timeline-item">
-                            <h3>Tecnocampus - UPF | Barcelona</h3>
                             <p>
                                 In 2022 I started my double Degree in Computer Science and Videogame Design and
                                 Development at Tecnocampus, Mataró which is attatched to UPF in Barcelona.
