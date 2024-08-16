@@ -60,7 +60,7 @@ h3 {
     gap: 10px; /* Add some space between the bubbles */
 }
 .language-bubble {
-    background: linear-gradient(45deg, #6d1e10, #5c410e);
+    background-color: #000f89;
     color: #ffffff;
     padding: 5px 10px;
     border-radius: 20px;
@@ -75,7 +75,7 @@ h3 {
 }
 
 .category-bubble {
-    background: linear-gradient(45deg, #0f3563, #073d3b);
+    background-color: #204e61;
     color: #ffffff;
     padding: 5px 10px;
     border-radius: 20px;

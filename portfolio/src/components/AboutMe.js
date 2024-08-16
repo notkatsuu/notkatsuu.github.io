@@ -5,6 +5,7 @@ import './AboutMe.css';
 function AboutMe() {
     return (
         <section id="about">
+
             <p>
                 I’m Pau, "Katsu" is a nickname i got on all my accounts when i was little, and i've been keeping it since then.
             </p>

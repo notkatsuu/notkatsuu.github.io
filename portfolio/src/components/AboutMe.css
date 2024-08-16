@@ -5,23 +5,18 @@
 
 #about h2 {
     font-size: 3rem;
-    color: #ffffff;
+    color: #d1e3f1;
     padding-left: 40px;
-    margin-bottom: 0px; /* Adjust this value to reduce the space below the title */
+    margin-bottom: 20px;
     text-shadow: 0 5px 15px rgba(0, 0, 0, 0.6);
 }
 
 #about p {
     font-size: 1.2rem;
-    margin-top: 0;
     line-height: 1.6;
     color: #adb4bf;
     text-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
     padding-left: 40px;
-}
-#about section {
-    padding-top: 20px;
-    padding-bottom: 0;
 }
 
 a {
@@ -35,7 +30,7 @@ a:hover {
 
 @media screen and (max-width: 1184px) {
     #about h2 {
-        font-size: 1.6rem;
+        font-size: 1.4rem;
         color: #d1e3f1;
         padding-left: 40px;
         margin-bottom: 20px;
