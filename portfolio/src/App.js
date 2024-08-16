@@ -5,6 +5,7 @@ import NavBar from './components/NavBar';
 import Hero from './components/Hero';
 import ProjectList from './components/ProjectList';
 import AboutMe from "./components/AboutMe";
+import Journey from "./components/Journey";
 
 import { Helmet } from 'react-helmet';
 
@@ -27,6 +28,10 @@ function App() {
                 <section id="about">
                     <h2 className="sticky-title">About Me</h2>
                     <AboutMe/>
+                </section>
+                <section id="journey">
+
+                    <Journey/>
                 </section>
                 <section id="projects">
                     <h2 className="sticky-title">My Projects</h2>

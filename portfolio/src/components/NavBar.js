@@ -13,6 +13,7 @@ function NavBar() {
     return (
         <nav>
             <a href="#about">About Me</a>
+            <a href="#journey">Journey</a>
             <a href="#projects">Projects</a>
         </nav>
     );
