@@ -7,6 +7,13 @@ function Journey() {
 
     const mapRef = useRef(null);
 
+    const markerIcon = L.icon({
+        iconSize: [25, 41],
+        iconAnchor: [10, 41],
+        popupAnchor: [2, -40],
+        iconUrl: "https://unpkg.com/leaflet@1.5.1/dist/images/marker-icon.png",
+        shadowUrl: "https://unpkg.com/leaflet@1.5.1/dist/images/marker-shadow.png"
+    });
     useEffect(() => {
         if (mapRef.current !== null) return;
 
@@ -27,8 +34,15 @@ function Journey() {
             attribution: '&copy; OpenStreetMap contributors',
         }).addTo(map);
 
-        L.marker([41.536, 2.438]).addTo(map)
-            .bindPopup('Tecnocampus, Mataró.')
+        L.marker([41.527971812264305, 2.4346623434987444],
+            {
+                draggable: true, // Make the icon dragable
+                title: "Hover Text", // Add a title
+                opacity: 0.5,
+                icon: markerIcon // here assign the markerIcon var
+            } // Adjust the opacity
+        ).addTo(map)
+            .bindPopup("<b>Tecnocampus</b><br>Mataró, Barcelona")
             .openPopup();
 
         mapRef.current = map;
