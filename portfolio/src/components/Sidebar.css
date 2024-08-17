@@ -1,0 +1,31 @@
+/* src/components/Sidebar.css */
+.sidebar-container {
+    position: sticky;
+    padding-top: 80px;
+    top: 0;
+    height: 100vh;
+    overflow-y: auto; /* Allow scrolling if content exceeds height */
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+    width: 100%;
+}
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+
+    overflow-y: auto;
+
+    width: 100%;
+    padding: 20px;
+
+}
+
+@media screen and (max-width: 1300px) {
+    .sidebar-container {
+        display: none;
+    }
+
+}

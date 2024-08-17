@@ -1,11 +1,12 @@
 /* src/components/AboutMe.css */
 #about {
     color: #d1e3f1;
+    padding-top: 50px;
 }
 
 #about h2 {
     font-size: 3rem;
-    color: #ffffff;
+    color: #c7d7ee;
     padding-left: 40px;
     margin-bottom: 0px; /* Adjust this value to reduce the space below the title */
     text-shadow: 0 5px 15px rgba(0, 0, 0, 0.6);

@@ -1,10 +1,7 @@
+/* src/App.css */
 *, html {
-
-    scroll-behavior: smooth !important;
-
-
+    scroll-behavior: smooth;
 }
-
 
 body {
     margin: 0;
@@ -12,32 +9,12 @@ body {
     font-family: 'Inter', sans-serif;
     background-color: #03171d;
     color: #abbfcb;
-    scroll-behavior: smooth;
-
-
     background-image: url('bg.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
     background-blend-mode: overlay;
-
-
-}
-
-.App {
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    height: 100vh;
-    max-width: 1500px;
-    margin: 0 auto;
-    overflow: hidden; /* Prevent default scrolling on the .App container */
-}
-
-.App * {
-    scrollbar-width: none;
-    scrollbar-color: rgba(255, 255, 255, 0.5) rgba(0, 0, 0, 0); /* For Firefox */
 }
 
 #cursor {
@@ -51,109 +28,12 @@ body {
     z-index: 101;
 }
 
-.sidebar-container {
-    position: sticky;
-    width: 80%; /* Adjusted width for the sidebar */
-    height: 100vh;
+.App {
     display: flex;
-    flex-direction: column;
-    overflow-y: hidden;
-
-}
-
-@keyframes slide-in {
-    0% {
-        left: -500px; /* Move the sidebar to the left edge of its parent container */
-    }
-    100% {
-        left: 0; /* Move the sidebar to its original position */
-    }
-}
-
-.sidebar {
-    position: absolute;
-    top: 0;
-    left: 0;
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-    margin-left: 50px;
-    max-height: 100vh;
-    width: 500px;
-    padding-top: 100px;
-    overflow: hidden; /* Add this line */
-    animation: slide-in 1s forwards;
-}
-
-.content::before {
-    content: "";
-    top: 0;
-    left: 0;
-    position: absolute;
-    height: 100%;
-    width: 100%;
-
-
-}
-.content {
-
-    position: relative; /* Make sure the .content is relative so it can be moved */
-    overflow-y: auto;
-    display: inline-block;
-    width: 100%;
     height: 100vh;
-    padding-right: 100px;
-
-}
-.content section {
-    padding-top: 100px; /* Adjust this value to change the offset */
-
+    max-width: 1500px;
+    margin: 0 auto;
+    overflow: hidden;
 }
 
 
-
-
-
-@media screen and (max-width: 1184px) {
-    .sidebar {
-        display: none;
-    }
-
-    .sidebar-container {
-        display: none;
-    }
-
-    select {
-        font-size: 0.5em;
-        padding: 5px;
-    }
-
-    .filter-bubble {
-        background-color: #ff4c60;
-        color: #ffffff;
-        padding: 1px 10px;
-        border-radius: 20px;
-        cursor: pointer;
-    }
-
-
-    .sticky-title {
-        position: sticky;
-        top: 0;
-        z-index: 100; /* Ensure the title is above other content */
-        background-image: radial-gradient(circle at 0%, rgba(0, 14, 40, 0.9), rgba(3, 23, 29, 0));
-        padding: 10px;
-        width: 100%;
-        border-radius: 50px;
-    }
-
-    .content {
-        padding-left: 120px;
-        padding-right: 120px;
-
-    }
-
-    .project-list {
-        grid-template-columns: 1fr 1fr; /* 2 cards per row when zoomed */
-    }
-}
