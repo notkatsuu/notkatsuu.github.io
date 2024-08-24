@@ -28,12 +28,31 @@ body {
     z-index: 101;
 }
 
+/* src/App.css */
 .App {
     display: flex;
+    flex-direction: column; /* Change to column to stack sidebar on top */
     height: 100vh;
     max-width: 1500px;
     margin: 0 auto;
     overflow: hidden;
 }
 
+@media screen and (min-width: 1300px) {
+    .App {
+        flex-direction: row; /* Revert to row for larger screens */
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    .App {
+        flex-direction: column; /* Stack sidebar on top */
+        height: auto;
+    }
+
+    .content {
+        padding-left: 0;
+        overflow-y: visible; /* Content and sidebar scroll together */
+    }
+}
 
