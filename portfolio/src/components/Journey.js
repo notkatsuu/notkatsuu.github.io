@@ -71,7 +71,7 @@ function Journey() {
                                 <br></br>
                                 In the other hand, in Videogame Design and Development, I can apply the knowledge of
                                 Computer Science to create games, which is something that I love, while treating other
-                                important aspects, like the Design itself, the narrative, the art, the sound, the
+                                important aspects, like the design, the narrative, the art, the sound, the
                                 marketing, etc.
                                 <br></br>
                                 <br></br>

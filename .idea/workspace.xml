@@ -6,11 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="256a41fe-a1eb-4200-9439-8edf02d5fd36" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/src/components/AboutMe.css" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/src/components/AboutMe.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/src/components/Content.css" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/src/components/Content.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/src/components/ProjectCard.css" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/src/components/ProjectCard.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/src/components/Sidebar.css" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/src/components/Sidebar.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/src/components/Journey.js" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/src/components/Journey.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,6 +114,7 @@
       <workItem from="1724260718875" duration="2374000" />
       <workItem from="1724502880393" duration="6767000" />
       <workItem from="1724522063559" duration="9000" />
+      <workItem from="1724682631092" duration="103000" />
     </task>
     <servers />
   </component>
