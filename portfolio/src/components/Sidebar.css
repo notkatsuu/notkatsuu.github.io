@@ -29,7 +29,7 @@
     .sidebar-container {
         position: relative;
         height: auto;
-        padding-top: 0;
+        padding-top: 100px;
         align-self: center;
         width: 90vw;
         max-width: 100vw; /* Ensure it fits within the viewport width */

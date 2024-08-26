@@ -137,8 +137,10 @@ h3 {
         margin-top: 0;
     }
 
-    h3 {
+    .project-info h3 {
         font-size: 1em; /* Reduce the font size */
+        padding-left: 0;
+        margin: 0;
     }
 
     .project-card:hover {
@@ -146,9 +148,12 @@ h3 {
         background: linear-gradient(30deg, rgba(230, 237, 255, 0), rgba(178, 214, 255, 0.1)); /* Add a gradient background */
     }
 
-    p {
+    .project-info p{
         font-size: 0.8em; /* Reduce the font size */
-
+        padding-left: 0;
+        padding-right: 15px;
+        padding-top: 14px;
+        margin: 0;
     }
 }
 

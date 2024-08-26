@@ -56,3 +56,14 @@ body {
     }
 }
 
+/*make background fixed and filling the screen on mobile*/
+
+@media screen and (max-width: 1300px) {
+    body {
+        background-size: 100% 100%;
+    }
+
+}
+
+
+

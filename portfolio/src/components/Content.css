@@ -29,11 +29,10 @@
         position: relative;
         top: 0;
         z-index: 400;
-
         padding-top: 10px;
         border-radius: 5px;
         padding-bottom: 10px;
-        font-size: 2rem;
+        font-size: 1.8rem;
         padding-left: 20px;
     }
 }

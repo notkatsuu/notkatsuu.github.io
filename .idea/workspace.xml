@@ -7,16 +7,10 @@
     <list default="true" id="256a41fe-a1eb-4200-9439-8edf02d5fd36" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/portfolio/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/portfolio/src/components/AboutMe.css" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/src/components/AboutMe.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/portfolio/src/components/Content.css" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/src/components/Content.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/src/components/Hero.css" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/src/components/Hero.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/src/components/Journey.css" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/src/components/Journey.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/src/components/NavBar.css" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/src/components/NavBar.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/portfolio/src/components/ProjectCard.css" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/src/components/ProjectCard.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/src/components/ProjectList.css" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/src/components/ProjectList.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/portfolio/src/components/Sidebar.css" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/src/components/Sidebar.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/src/index.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +42,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/repos/notkatsuu.github.io&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/repos/LinkTree&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
@@ -122,7 +116,8 @@
       <workItem from="1724260305876" duration="144000" />
       <workItem from="1724260464585" duration="242000" />
       <workItem from="1724260718875" duration="2374000" />
-      <workItem from="1724502880393" duration="4182000" />
+      <workItem from="1724502880393" duration="6767000" />
+      <workItem from="1724522063559" duration="9000" />
     </task>
     <servers />
   </component>

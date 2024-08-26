@@ -20,15 +20,15 @@ a {
 /* mobile version smaller fonts */
 
 @media screen and (max-width: 1300px) {
-    h3 {
+    #about h3 {
         font-size: 1.2rem;
-        padding-left: 20px;
         margin-bottom: 30px;
     }
 
-    p {
-        font-size: 1rem;
-        padding-left: 30px;
+    #about p {
+        font-size: 0.8rem;
+        margin-left: 25px;
+
     }
 }
 
