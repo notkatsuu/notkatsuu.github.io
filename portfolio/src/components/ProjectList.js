@@ -63,6 +63,14 @@ const projects = [
         languages: ['Java', 'SpringBoot', 'Git', 'SQL', 'MySQL'],
         image: '/images/Spring.png',
         link: 'https://github.com/notkatsuu/AutoCarRent'
+    },
+    {
+        name: 'Conway\'s Game of Life',
+        about: 'This is a simple implementation of Conway\'s Game of Life, a cellular automaton devised by the British mathematician John Horton Conway in 1970. \n\n It was developed in the Software Laboratory 1 subject. \n\n The game is a zero-player game, meaning that its evolution is determined by its initial state, requiring no further input. One interacts with the Game of Life by creating an initial configuration and observing how it evolves.',
+        categories: ['Software', 'University'],
+        languages: ['C'],
+        image: '/images/conway.gif',
+        link: 'https://github.com/notkatsuu/Konway'
     }
 
     // Add more projects here

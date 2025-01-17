@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="256a41fe-a1eb-4200-9439-8edf02d5fd36" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/portfolio/public/images/conway.gif" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/src/components/AboutMe.css" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/src/components/AboutMe.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/src/components/Content.css" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/src/components/Content.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/src/components/ProjectList.js" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/src/components/ProjectList.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,18 +24,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "notkatsuu"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;notkatsuu&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/notkatsuu/notkatsuu.github.io.git",
-    "accountId": "5d5d16b9-c8bb-43a2-a80e-1059047eb763"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/notkatsuu/notkatsuu.github.io.git&quot;,
+    &quot;accountId&quot;: &quot;5d5d16b9-c8bb-43a2-a80e-1059047eb763&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
 }</component>
@@ -50,13 +49,14 @@
     "Node.js.App.js.executor": "Run",
     "Node.js.ProjectList.js.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/Usuario/Documents/Portfolio/notkatsuu.github.io",
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_interpreter_path": "C:/Users/Usuario/AppData/Roaming/JetBrains/IntelliJIdea2024.2/node/versions/22.11.0/node",
+    "nodejs_interpreter_path": "node",
     "nodejs_package_manager_path": "npm",
     "npm.deploy.executor": "Run",
     "npm.start.executor": "Run",
@@ -75,6 +75,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\pauca\Documents\GitHub\notkatsuu.github.io\portfolio\public\images" />
       <recent name="C:\repos\WebPage\portfolio\src" />
       <recent name="C:\repos\WebPage\portfolio\public\images" />
     </key>
@@ -105,8 +106,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-28b599e66164-intellij.indexing.shared.core-IU-242.23726.103" />
-        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-IU-242.23726.103" />
+        <option value="bundled-jdk-9823dce3aa75-fdfe4dae3a2d-intellij.indexing.shared.core-IU-243.21565.193" />
+        <option value="bundled-js-predefined-d6986cc7102b-e768b9ed790e-JavaScript-IU-243.21565.193" />
       </set>
     </attachedChunks>
   </component>
@@ -131,6 +132,7 @@
       <workItem from="1724522063559" duration="9000" />
       <workItem from="1724682631092" duration="103000" />
       <workItem from="1731346201415" duration="1155000" />
+      <workItem from="1737143538799" duration="989000" />
     </task>
     <servers />
   </component>
